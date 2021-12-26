@@ -13,7 +13,7 @@ source ShellBot.sh
 api_bot=$1
 id_admin=$2
 [[ -z $api_bot ]] && exit 0
-[[ -z $id_admin ]] && exit 0
+[[ -z $id_admin ]] && exit 
 [[ ! -e /usr/lib/licence ]] && exit 0
 ativos='/etc/bot/lista_ativos'
 suspensos='/etc/bot/lista_suspensos'
@@ -25,7 +25,7 @@ fun_menu() {
 	env_msg="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
         env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>----------♻️ DARKSSH MANAGER ♻️----------</b>\n"
-	env_msg+="<b>  # ⚡️⚡️ Sithum Batrow 🇱🇰 ⚡️⚡      </b>\n"
+	env_msg+="<b>  # ⚡️⚡️ Toxic Dee Modderr🇱🇰 ⚡️⚡      </b>\n"
 	env_msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
         env_msg+="<b>/Telegram- @sibatrow /Whatsapp- +94710572224 </b>\n"
 	env_msg+="━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n"
