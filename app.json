@@ -10,8 +10,8 @@
         "vpn-userbot"
     ],
     "website": "https://youtech.live",
-    "repository": "https://github.com/sbatrow/DARKSSH-MANAGER",
-    "success_url": "https://t.me/YouTech_Support",
+    "repository": "https://github.com/TeamBossBABy/DARKSSH-MANAGER",
+    "success_url": "https://t.me/NarutoUtubeBott",
     "env": {
         "ADMINS": {
             "description": "Your Telegram ID use @my_id_bot",
